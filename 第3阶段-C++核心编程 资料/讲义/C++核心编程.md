@@ -1363,7 +1363,7 @@ void test02() {
 	Person p5 = p4; // Person p5 = Person(p4); 
 
 	//注意2：不能利用 拷贝构造函数 初始化匿名对象 编译器认为是对象声明
-	//Person p5(p4);
+	//Person (p5);
 }
 
 int main() {
