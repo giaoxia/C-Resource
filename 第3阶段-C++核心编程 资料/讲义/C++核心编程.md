@@ -2194,7 +2194,7 @@ void test01() {
 	person.m_B = 100; //但是常对象可以修改mutable修饰成员变量
 
 	//常对象访问成员函数
-	person.MyFunc(); //常对象不能调用const的函数
+	person.MyFunc(); //常对象不能调用普通成员函数，因为普通成员函数可以修改属性
 
 }
 
